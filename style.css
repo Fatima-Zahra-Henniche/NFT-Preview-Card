@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Outfit:wght@300&display=swap');
+
+:root {
+    --Soft-bleu: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue1: hsl(217, 54%, 11%);
+    --Very-dark-blue2: hsl(216, 50%, 16%);
+    --Very-dark-blue3: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Very-dark-blue1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: hsl(216, 60%, 9%);
+}
+
+.NAV {
+    min-height: 52vh;
+    width: 22.6rem;
+    border-radius: 15px;
+    background-color: var(--Very-dark-blue2);
+}
+
+.headd img {
+    height: 20rem;
+    border-radius: 8px;
+    margin: 1.3rem;
+}
+
+.headd1 {
+    display: flex;
+    align-items: self-start;
+    padding-bottom: 1.1rem;
+    gap: 6px;
+}
+
+.p1 {
+    font-size: 20px;
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+    padding-left: 1.3rem;
+    color: var(--White);
+    letter-spacing: 1px;
+}
+
+.p2 {
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--White);
+    letter-spacing: 1px;
+}
+
+.p3 {
+    font-size: 18px;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-left: 1.3rem;
+    padding-bottom: 1.1rem;
+    color: var(--Soft-bleu);
+}
+
+.foter1 {
+    display: flex;
+    align-items: self-start;
+    padding-left: 1.3rem;
+    padding-bottom: 1.2rem;
+    gap: 8px;
+}
+
+.foter1 img {
+    height: 20px;
+}
+
+.clock {
+    padding-left: 4.5rem;
+}
+
+.p4 {
+    font-family: Outfit, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--Cyan);
+}
+
+.p5 {
+    font-family: Outfit, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--Soft-bleu);
+}
+
+.NAV hr {
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    margin-bottom: 1.1rem;
+    border: none;
+    border-top: 1.5px solid var(--Very-dark-blue3);
+
+}
+
+.foter2 {
+    display: flex;
+    align-items: center;
+    padding-left: 1.3rem;
+    padding-bottom: 1.3rem;
+    gap: 15px;
+}
+
+.foter2 img {
+    height: 35px;
+    border-radius: 50%;
+    border: 1.8px solid var(--White);
+}
+
+.foter2 p {
+    font-family: Outfit, sans-serif;
+    font-size: 16px;
+}
+
+.content {
+    color: var(--Soft-bleu);
+}
+
+.author {
+    color: var(--White);
+}
